@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+        ul {
+            list-style: none;
+            padding-left: 0;
+            display: flex;
+            justify-content: center;
+        }
+  
+        li {
+            margin-right: 20px;
+        }
+  
+        img {
+            display: block;
+            margin: 10px auto;
+            width: 75%;
+            height: auto;
+            border-radius: 10px;
+            cursor: pointer;
+
+        }
+        .instagram-image {
+            display: block;
+            margin: 0 auto; /* Centrează imaginea pe orizontală */
+            max-width: 20%; /* Asigură că imaginea nu depășește lățimea elementului părinte */
+            max-height: 50px; /* Setează o înălțime maximă pentru imagine */
+            height: auto; /* Menține raportul de aspect al imaginii */
+            border: none; /* Elimină orice bordură dacă există */
+            border-radius: 10px;
+        }
+
+        /* Stilurile pentru lightbox */
+        #lightbox {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.7);
+            justify-content: center;
+            align-items: center;
+            z-index: 9999;
+        }
+
+        #lightbox img {
+            max-width: 90%;
+            max-height: 90%;
+            object-fit: contain;
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <header>
+      <a href="index.html">Home</a>
+      <a href="about-me.html"> About Me</a>
+      <a href="professional-experience.html"> Professional Experience</a>
+      <a href="studies-and-schools-graduated.html"> Studies and Schools Graduated</a>
+      <a href="contact.html"> Contact</a>
+      <a href="my-work.html"> My Work</a>
+      <h2><strong>Curriculum Vitae</strong></h2>
+    </header>
+
+    <div class="centered">
+        <h1>My Work.</h1>
+        <p>In this section I will present some of the dishes that I have created in the various restaurants where I have worked, as well as TV shows that I have participated in. <br>
+        Through these I want to show you just a small part of the 20 years that I have spent so far in the field of Gastro.
+        </p>
+    </div>
+    <br>
+    <br>
+    <br>
+
+    <div>
+        <h2 class="centered">Dishes</h2>
+        <br>
+        <br>
+        <ul>
+            <li>
+                <img src="images/2019-07-19-14-55-21.jpg" >
+            </li>
+            <li>
+                <img src="images/2019-07-26-17-53-07.jpg">
+            </li>
+            <li>
+                <img src="images/2019-08-04-16-45-05.jpg">
+            </li>
+        </ul>
+
+        <ul>
+            <li>
+                <img src="images/2019-08-09-17-35-18.jpg">
+            </li>
+            <li>
+                <img src="images/2019-08-27-16-52-49.jpg">
+            </li>
+            <li>
+                <img src="images/2019-12-27-12-30-56-896.jpg">
+            </li>
+        </ul>
+
+        <ul>
+            <li>
+                <img src="images/2019-12-27-13-43-54-475.jpg">
+            </li>
+            <li>
+                <img src="images/2020-01-14-10-49-49-262.jpg">
+            </li>
+            <li>
+                <img src="images/2020-01-14-14-00-10-016.jpg">
+            </li>
+        </ul>
+
+        <ul>
+            <li>
+                <img src="images/2020-01-15-09-46-16-549.jpg">
+            </li>
+            <li>
+                <img src="images/2020-01-15-09-49-46-968.jpg">
+            </li>
+            <li>
+                <img src="images/2020-02-08-11-01-12-975.jpg">
+            </li>
+        </ul>
+
+        <ul>
+            <li>
+                <img src="images/2020-02-09-11-53-59-605.jpg">
+            </li>
+            <li>
+                <img src="images/2020-02-16-13-12-59-913.jpg">
+            </li>
+            <li>
+                <img src="images/2020-03-10-13-19-26-195 - Copy.jpg">
+            </li>
+        </ul>
+
+        <ul>
+            <li>
+                <img src="images/47583676_1457063901094761_4176640948494203833_n.jpg">
+            </li>
+            <li>
+                <img src="images/47692599_748758298821640_3514437187023626457_n.jpg">
+            </li>
+            <li>
+                <img src="images/49299202_287794041848318_8183690872555603554_n.jpg">
+            </li>
+        </ul>
+
+        <ul>
+            <li>
+                <img src="images/54512549_1922574131203984_7539353233366519468_n.jpg">
+            </li>
+            <li>
+                <img src="images/58939978_333440090695910_2443955758692659640_n.jpg">
+            </li>
+            <li>
+                <img src="images/67950773_158815285238607_6012480983053672355_n.jpg">
+            </li>
+        </ul>
+
+        <ul>
+            <li>
+                <img src="images/78888926_835672853560917_1014339492251997136_n.jpg">
+            </li>
+            <li>
+                <img src="images/81567038_2291659774464574_5713766211869881480_n.jpg">
+            </li>
+            <li>
+                <img src="images/82375820_3430776380296896_6387341256109286189_n.jpg">
+            </li>
+        </ul>
+
+        <ul>
+            <li>
+                <img src="images/83618492_221933938826618_8271403589538972824_n.jpg">
+            </li>
+            <li>
+                <img src="images/IMG-20190123-WA0022.jpg">
+            </li>
+            <li>
+                <img src="images/IMG-20190319-WA0005.jpg">
+            </li>
+        </ul>
+    </div>
+
+        <a href="https://www.instagram.com/andrei.niculae.costea/" target="_blank">
+            <p>You can find more pictures of the dishes on my Instagram page.<br>
+                You can click on this text to access the page.<br>
+                Thank you.
+            </p>
+        </a>
+    
+    <br>
+    <br>
+    <br>
+
+
+    <div>
+        <h2 class="centered">TV Shows</h2>
+        <br>
+        <br>
+        <br>
+        <a href="https://www.instagram.com/p/CWWSieqINO4/" target="_blank">
+            Antena 1 - Bucharest, Romania
+        </a>
+    </div>
+
+
+    <br>
+    <br>
+    <br>
+
+    <div>
+        <h2 class="centered">Projects</h2>
+        <br>
+        <br>
+        <br>
+        <a href="https://smart-autohof.ro/" target="_blank">
+            Smart-Autohof, Pecica, Romania
+        </a>
+    </div>
+
+    <br>
+    <br>
+    <br>
+
+    <footer>
+        <p class="centered">© 2023 Andrei-Costea Niculae. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
+
+    
