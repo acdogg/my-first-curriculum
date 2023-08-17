@@ -5,8 +5,13 @@ body {
   }
   
   header {
-    height: 3cm;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     background-color: #f1e509;
+    height: 3cm;
+    z-index: 1000; /* Asigură că header-ul este afișat peste conținutul paginii */;
   }
 
   a{
@@ -63,5 +68,8 @@ body {
     clear: both; /* Elimină învăluirea elementelor din jurul imaginii */
     font-size: 20px;
 }
+
+
+
 
 
