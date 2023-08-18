@@ -1,75 +1,100 @@
+/* Resetare stiluri implicite ale browserului */
+body, h1, h2, h3, p, ul {
+  margin: 0;
+  padding: 0;
+}
+
 body {
-    margin: 0;
-    padding: 0;
-    background-color: rgb(234, 241, 241);
-  }
-  
-  header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: #f1e509;
-    height: 3cm;
-    z-index: 1000; /* Asigură că header-ul este afișat peste conținutul paginii */;
-  }
+  font-family: 'Helvetica Neue', sans-serif;
+  background-color: #f0f0f0;
+}
 
-  a{
-    color: black;
-    position: relative;
-    top: 50%;
-    left: 30%;
-    font-size: 25px;
-    font-family: 'Times New Roman', Times, serif;
-    letter-spacing: normal;
-    line-height: 0.5;
-    text-decoration: blueviolet; /* Elimină sublinierea */
-    font-weight: bold; /* Ingroasă textul */
-    margin-right: 10px; /* Adaugă un spațiu de 10px între fiecare link */
-    
-  }
+/* Stilizare antet */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 98%;
+  background-color: #f1e509;
+  height: 70px;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
 
-  h1{
-    color: black;
-    font-size: 100px;
-    margin-bottom: 30px;
-  }
+/* Stilizare link-uri din antet */
+header a {
+  color: black;
+  font-size: 18px;
+  text-decoration: none;
+  margin-right: 5px;
+}
 
-  h2{
-    color: black;
-    font-size: 50px;
-    margin-bottom: 30px;
-    line-height: 0;
-  }
-
-  p{
-    color: black;
-    font-size: 30px;
-    line-height: 1.5;
-    margin-bottom: 10px; /* Adaugă un spațiu de 10px în partea de jos a paragrafului */
-  }
-
-  .centered {
-    text-align: center;
-  }
-
-  h3 {
-    color: black;
-    font-size: 30px;
-    margin-bottom: 30px;
-    line-height: 0;
-  }
-
-  ul {
-    margin-top: 0;
-    margin-bottom: 30px;
-    padding-left: 20px;
-    list-style-type: disc;
-    clear: both; /* Elimină învăluirea elementelor din jurul imaginii */
-    font-size: 20px;
+/* Stilizează containerul pentru conținut */
+.container {
+  max-width: 1200px; /* Alegeți lățimea dorită pentru conținut */
+  margin: 0 auto; /* Centrează containerul pe pagină */
+  padding: 20px; /* Adaugă un spațiu de la marginea paginii */
 }
 
 
+/* Stilizare continut central */
+.centered {
+  text-align: center;
+  padding: 30px;
+}
 
+/* Stilizare imagine in cadrul textului */
+.image-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+}
 
+.image {
+  max-width: 500px;
+  border-radius: 10px;
+  margin-right: 20px;
+}
 
+.text {
+  font-size: 20px;
+}
+
+.my-work a{
+  text-align: center;
+}
+
+/* Stilizare subsol */
+footer {
+  background-color: #333;
+  color: #f1e509;
+  text-align: center;
+  padding: 20px 0;
+}
+
+footer p {
+  margin: 0;
+  font-size: 18px;
+}
+
+/* Stilizare lista */
+ul {
+  margin-left: 20px;
+  list-style-type: disc;
+  font-size: 20px;
+}
+
+/* Stilizare titlu h3 */
+h3 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+/* Stilizare titlu Curriculum Vitae */
+header h2 {
+  font-size: 24px;
+  margin: 0;
+}

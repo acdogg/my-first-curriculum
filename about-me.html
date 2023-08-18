@@ -4,23 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-
+    <title>About Me</title>
     <style>
-        .image-container {
-            display: flex;
-            align-items: center;
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
         }
-
-        .image {
-            max-width: 500px;
-        }
-
-        .text {
-            margin-left: 20px;
-        }
+        /* Alte stiluri */
     </style>
 </head>
-
 <body>
     <header>
         <a href="index.html">Home</a>
@@ -29,42 +22,55 @@
         <a href="studies-and-schools-graduated.html"> Studies and Schools Graduated</a>
         <a href="contact.html"> Contact</a>
         <a href="my-work.html"> My Work</a>
-        <h2><strong>Curriculum Vitae</strong></h2>    
+        <h2><strong>Curriculum Vitae</strong></h2>
     </header>
 
     <br>
     <br>
     <br>
 
-    <h1 class="centered">About Me</h1>
 
-    <div class="image-container">
-        <img class="image" src="images/20160304_155819.jpg" alt="Foto in descrierea About Me">
-        <p class="text"> Name: <strong>Andrei</strong> <br>
-            Surname: <strong>Niculae</strong> <br>
-            Date of birth: <strong>14.11.1981</strong> <br>
-            City: <strong>Bucharest</strong> <br>
-            Country: <strong>Romania</strong> <br>
-            Phone: <strong>0041 77 204 61 56</strong> <br>
-            Email: <strong>andrew_costea@yahoo.com</strong> <br>
-        </p>
-    </div>
+    <div class="container">
+        <h1 class="centered">About Me</h1>
 
-    <div class="image-container">
-        <img class="image" src="images/20170607_003937.jpg" alt="Foto in descrierea About Me">
-        <p class="text">My name is Andrei and I am a Chef from the year 2013. <br>
-            Before attending specialized courses, which are presented in the specific sections of this Curriculum, I practiced football for 15 years. <br>
-            Then I had various jobs such as: construction site worker, street paving and asphalting worker, worker distributing advertising leaflets. <br>
-            I did these activities during the college I attended, but unfortunately I didn't finish. <br>
-            After these activities followed those specific to gastronomy, which, as I mentioned above, I will describe and detail in the other sections.<br>
-            From 2021 I started learning programming languages such as C++, SQL but also HTML and CSS. As a result, this website where I wrote this Curriculum is made by me.
-        </p>
-    </div>
+        <div class="image-container">
+            <img class="image" src="images/20160304_155819.jpg" alt="Foto in descrierea About Me">
+            <div class="text">
+                <p>Name: <strong>Andrei</strong></p>
+                <p>Surname: <strong>Niculae</strong></p>
+                <p>Date of birth: <strong>14.11.1981</strong></p>
+                <p>City: <strong>Bucharest</strong></p>
+                <p>Country: <strong>Romania</strong></p>
+                <p>Phone: <strong>0041 77 204 61 56</strong></p>
+                <p>Email: <strong>andrew_costea@yahoo.com</strong></p>
+            </div>
+        </div>
 
-    <div class="image-container">
-        <img class="image" src="images/43914506_2273512142878484_5438350926122566018_n.jpg" alt="Foto in descrierea About Me">
-        <h3 class="text">Skills and Competences</h3>
-        <div class="text">
+        <br>
+        <br>
+        <br>
+
+        <div class="image-container">
+            <img class="image" src="images/20170607_003937.jpg" alt="Foto in descrierea About Me">
+            <div class="text">
+                <p>My name is Andrei and I am a Chef from the year 2013. <br>
+                    Before attending specialized courses, which are presented in the specific sections of this Curriculum, I practiced football for 15 years. <br>
+                    Then I had various jobs such as: construction site worker, street paving and asphalting worker, worker distributing advertising leaflets. <br>
+                    I did these activities during the college I attended, but unfortunately I didn't finish. <br>
+                    After these activities followed those specific to gastronomy, which, as I mentioned above, I will describe and detail in the other sections.<br>
+                    From 2021 I started learning programming languages such as C++, SQL but also HTML and CSS. As a result, this website where I wrote this Curriculum is made by me.</p>
+            </div>
+        </div>
+
+        <br>
+        <br>
+        <br>
+        
+
+        <div class="image-container">
+            <img class="image" src="images/43914506_2273512142878484_5438350926122566018_n.jpg" alt="Foto in descrierea About Me">
+            <div class="text">
+                <h3>Skills and Competences</h3>
             <ul>
                 <li>Quick accommodation in almost any situation and any place</li>
                 <li>Maintaining calm in difficult and stressful situations</li>
@@ -83,15 +89,12 @@
                 <li>Ensuring dishes are presented and served appropriately.</li>
                 <li>Knowledge of hygiene and food safety rules.</li>
                 <li>Ability to keep kitchen clean and tidy.</li>
-            </ul>
+            </div>
         </div>
     </div>
 
     <footer>
         <p class="centered">© 2023 Andrei-Costea Niculae. All rights reserved.</p>
     </footer>
-   
-    
-    
 </body>
 </html>
